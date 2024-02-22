@@ -4,10 +4,22 @@ export function HomeMiddle() {
 
     return (
         <div className="homewrapper">
+          <div className="homerowwrapper">
           <div className="homemiddle">
         
             <p className="font-bold text-3xl">Software Developer</p>
             <p>Hi! My name is Daniel Detchev, and I am a Fullstack Developer. I enjoy tennis, working out, and travelling!</p>
+
+          </div>
+
+          <div style={{clipPath : "circle()"}}>
+          <Image 
+              src="/linkedin.jpg"
+              width={220}
+              height={140}
+              alt="Picture of the author"
+          />
+          </div>
 
           </div>
 

@@ -28,7 +28,8 @@ html, body {
   flex-direction: column;
   text-align: left;
   gap: 2rem;
-  width: 20rem;
+  width: 30rem;
+  height: 10rem;
   padding-bottom: 5rem;
 }
 
@@ -41,12 +42,57 @@ html, body {
   height: 80vh;
 }
 
+.homerowwrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  align-items: center;
+  margin-left: -2rem;
+}
+
 .hometechstacks {
   display: flex;
   flex-direction: row;
-  text-align: left;
+  /* text-align: left; */
   align-items: center;
-  justify-content: flex-start;
-  width: 20rem;
+  /* justify-content: flex-start; */
+  width: 50rem;
   gap: 2rem;
+  padding-top: 5rem;
+}
+
+.projectswrapper {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  /* align-items: center; */
+  width: 45vw;
+  gap: 1rem;
+}
+
+.projectrowwrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.projectdesc {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  width: 35%;
+}
+
+.projecttech {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.codedemobtn {
+  display: flex;
+  flex-direction: row;
 }
