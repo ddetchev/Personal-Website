@@ -1,10 +1,10 @@
 import Image from "next/image"
 
-export function Project({ name, description, img, left, width, link } : any) {
+export function Project({ name, description, img, left, width, link, stack } : any) {
 
     return (
 
-        <div className="p-2 mb-10">
+        <div className="p-2 mb-12">
 
             <div className = "projectrowwrapper">
                 {left ? 
@@ -22,9 +22,14 @@ export function Project({ name, description, img, left, width, link } : any) {
                     <p className = "text-stone-500 text-sm text-center">{description}</p>
                     
                     <div className="projecttech font-bold py-2">
-                        <p className = "text-sm">Next.js</p>
+                        {/* <p className = "text-sm">Next.js</p>
                         <p className = "text-sm">PostgreSQL</p>
-                        <p className = "text-sm">TypeScript</p>
+                        <p className = "text-sm">TypeScript</p> */}
+                        <div className="text-sm projectstack">
+                            {stack.map((item : any, index : any) => (
+                                <p key={index}>{item}</p>
+                            ))}
+                        </div>
                     </div>
 
                     <a href={link}>

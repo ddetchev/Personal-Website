@@ -68,7 +68,7 @@ html, body {
   text-align: left;
   justify-content: center;
   /* align-items: center; */
-  width: 45vw;
+  width: 50vw;
   gap: 1rem;
 }
 
@@ -95,4 +95,16 @@ html, body {
 .codedemobtn {
   display: flex;
   flex-direction: row;
+}
+
+.projectstack {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.homesocials {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
 }

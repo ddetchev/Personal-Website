@@ -5,15 +5,17 @@ export function TopNav() {
     return (
 
         <div className="topnav">
+            <Link href="/">
             <p className = "font-bold text-xl" style={{paddingLeft : "2rem", paddingTop : "1rem"}}>Daniel.Detchev</p>
+            </Link>
             <div className="navbar text-l font-bold" style={{paddingTop : "1rem"}}>
 
                 <Link href="/">
                 <p>Home</p>
                 </Link>
-                <Link href="/about">
+                {/* <Link href="/about">
                 <p>About</p>
-                </Link>
+                </Link> */}
                 <Link href="/projects">
                 <p>Projects</p>
                 </Link>
